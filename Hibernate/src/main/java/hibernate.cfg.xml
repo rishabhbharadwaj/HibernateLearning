@@ -37,8 +37,11 @@
         <!-- Names the annotated entity class -->
         <!-- <mapping class="com.Rishabh.Hibernate.UserDetails"/> -->
         <!-- <mapping class="com.Rishabh.Hibernate.StudentDetails"/> -->
-        <mapping class="com.Rishabh.Hibernate.CustomerDetails"/>
-        <mapping class="com.Rishabh.Hibernate.Vehicle"/>
+        <!-- <mapping class="com.Rishabh.Hibernate.CustomerDetails"/>
+        <mapping class="com.Rishabh.Hibernate.Vehicle"/> -->
+        <mapping class="com.Rishabh.Hibernate.PropertyDetails"/>
+        <mapping class="com.Rishabh.Hibernate.PropertyDetails_2BHK"/>
+        <mapping class="com.Rishabh.Hibernate.PropertyDetails_3BHK"/>
 
     </session-factory>
 
