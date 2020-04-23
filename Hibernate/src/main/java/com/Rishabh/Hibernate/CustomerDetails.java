@@ -2,6 +2,8 @@ package com.Rishabh.Hibernate;
 
 import java.util.ArrayList;
 import java.util.Collection;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -68,8 +70,7 @@ public class CustomerDetails {
 	 * = @JoinColumn(name="VEHICLE_ID"))
 	 */
 	
-	
-	@OneToMany
+	@OneToMany(cascade=CascadeType.PERSIST, mappedBy="customer")
 	private Collection<Vehicle> vehicle = new ArrayList<Vehicle>();
 
 	public Collection<Vehicle> getVehicle() {

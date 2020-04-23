@@ -38,13 +38,16 @@ public class CustomerVehicleDetailsTest {
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
-		session.save(customer1);
+		/* session.save(customer1); */
+		session.persist(customer1);
+		
+		/* To avoid session.save() every time we do cascading */ 
+		
 		session.save(vehicle1);
 		session.save(vehicle2);
 		session.getTransaction().commit();
 		session.close();
 		
-
 	}
 
 }
