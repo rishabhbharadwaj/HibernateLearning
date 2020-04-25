@@ -1,4 +1,4 @@
-package com.Rishabh.Hibernate;
+package com.Rishabh.Hibernate_Inheritance;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;

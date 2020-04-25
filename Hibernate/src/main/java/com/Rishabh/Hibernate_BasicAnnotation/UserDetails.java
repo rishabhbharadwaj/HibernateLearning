@@ -1,4 +1,4 @@
-package com.Rishabh.Hibernate;
+package com.Rishabh.Hibernate_BasicAnnotation;
 
 import java.util.Date;
 import javax.persistence.AttributeOverride;

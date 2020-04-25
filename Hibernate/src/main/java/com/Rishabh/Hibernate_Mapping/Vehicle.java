@@ -1,4 +1,4 @@
-package com.Rishabh.Hibernate;
+package com.Rishabh.Hibernate_Mapping;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -32,17 +32,17 @@
         <property name="show_sql">true</property>
 
         <!-- Drop and re-create the database schema on startup -->
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <!-- Names the annotated entity class -->
         <!-- <mapping class="com.Rishabh.Hibernate.UserDetails"/> -->
         <!-- <mapping class="com.Rishabh.Hibernate.StudentDetails"/> -->
         <!-- <mapping class="com.Rishabh.Hibernate.CustomerDetails"/>
         <mapping class="com.Rishabh.Hibernate.Vehicle"/> -->
-        <mapping class="com.Rishabh.Hibernate.PropertyDetails"/>
+        <!-- <mapping class="com.Rishabh.Hibernate.PropertyDetails"/>
         <mapping class="com.Rishabh.Hibernate.PropertyDetails_2BHK"/>
-        <mapping class="com.Rishabh.Hibernate.PropertyDetails_3BHK"/>
-
+        <mapping class="com.Rishabh.Hibernate.PropertyDetails_3BHK"/> -->
+		<mapping class="com.Rishabh.Hibernate_CRUD.Employee"/>
     </session-factory>
 
 </hibernate-configuration>

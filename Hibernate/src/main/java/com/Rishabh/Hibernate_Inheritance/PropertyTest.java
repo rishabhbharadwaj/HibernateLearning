@@ -1,4 +1,4 @@
-package com.Rishabh.Hibernate;
+package com.Rishabh.Hibernate_Inheritance;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
